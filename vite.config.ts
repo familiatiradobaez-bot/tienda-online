@@ -14,6 +14,7 @@ export default defineConfig({
       },
       config: {
         name: "tienda-online",
+        main: "build/server/index.js",
         compatibility_date: "2026-09-23",
         compatibility_flags: ["nodejs_compat"],
         observability: { enabled: true },
@@ -23,8 +24,8 @@ export default defineConfig({
             database_name: "tienda-db",
             database_id: "0f2ad4be-848e-4347-9ddb-fe55634b112a",
           },
-        ],kv_namespaces: [
-          { binding: "SESSIONS", id: "d55e906be9bf4fe88641ff58505adfc9" },
+        ],
+        kv_namespaces: [{ binding: "SESSIONS", id: "d55e906be9bf4fe88641ff58505adfc9" },
           { binding: "CACHE", id: "d507b543e92a436db2550dd78d1eda61" },
         ],
       },
