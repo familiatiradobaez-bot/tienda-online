@@ -14,7 +14,7 @@ export default defineConfig({
       },
       config: {
         name: "tienda-online",
-        main: "build/server/index.js",
+        main: "workers/app.ts",
         compatibility_date: "2026-09-23",
         compatibility_flags: ["nodejs_compat"],
         observability: { enabled: true },
