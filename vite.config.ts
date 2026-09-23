@@ -9,31 +9,21 @@ export default defineConfig({
     tailwindcss(),
     reactRouter(),
     cloudflare({
-      viteEnvironment: {
-        name: "ssr",
-      },
-      config: {
-        name: "tienda-online",
-        main: "workers/app.ts",
+      viteEnvironment: { name: "ssr" },
+      config: {name: "tienda-online",
+        main: "build/server/index.js",
         compatibility_date: "2026-09-23",
         compatibility_flags: ["nodejs_compat"],
         observability: { enabled: true },
         d1_databases: [
-          {
-            binding: "DB",
-            database_name: "tienda-db",
-            database_id: "0f2ad4be-848e-4347-9ddb-fe55634b112a",
-          },
+          { binding: "DB", database_name: "tienda-db", database_id: "0f2ad4be-848e-4347-9ddb-fe55634b112a" }
         ],
-        kv_namespaces: [{ binding: "SESSIONS", id: "d55e906be9bf4fe88641ff58505adfc9" },
-          { binding: "CACHE", id: "d507b543e92a436db2550dd78d1eda61" },
-        ],
-      },
-    }),
+        kv_namespaces: [
+          { binding: "SESSIONS", id: "d55e906be9bf4fe88641ff58505adfc9" },
+          { binding: "CACHE", id: "d507b543e92a436db2550dd78d1eda61" }
+        ]
+      }
+    })
   ],
-  resolve: {
-    alias: {
-      "~": path.resolve(__dirname, "app"),
-    },
-  },
+  resolve: { alias: { "~": path.resolve(__dirname, "app") } }
 });
