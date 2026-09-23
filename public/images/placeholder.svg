@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f1f5f9"/>
+  <text x="200" y="200" font-size="64" text-anchor="middle" dominant-baseline="middle" fill="#cbd5e1" font-family="sans-serif">📦</text>
+  <text x="200" y="260" font-size="14" text-anchor="middle" fill="#94a3b8" font-family="sans-serif">Imagen del producto</text>
+</svg>
