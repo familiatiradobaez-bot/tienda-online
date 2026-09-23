@@ -9,6 +9,6 @@ export default {
   async fetch(request: Request, env: Record<string, unknown>, ctx: ExecutionContext): Promise<Response> {
     return requestHandler(request, {
       cloudflare: { env, ctx },
-    });
+    } as any);
   },
 } satisfies ExportedHandler<Record<string, unknown>>;
