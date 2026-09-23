@@ -1,16 +1,14 @@
-import { reactRouter } from "@react-router/dev/vite";
 import { cloudflare } from "@cloudflare/vite-plugin";
-import { defineConfig } from "vite";
+import { reactRouter } from "@react-router/dev/vite";
 import tailwindcss from "@tailwindcss/vite";
+import { defineConfig } from "vite";
 import path from "path";
 
 export default defineConfig({
   plugins: [
+    cloudflare({ viteEnvironment: { name: "ssr" } }),
     tailwindcss(),
     reactRouter(),
-    cloudflare({
-      viteEnvironment: { name: "ssr" },
-    }),
   ],
   resolve: {
     alias: { "~": path.resolve(__dirname, "app") },

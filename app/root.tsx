@@ -4,11 +4,11 @@ import "./tailwind.css";
 import { Header } from "~/components/layout/Header";
 import { Footer } from "~/components/layout/Footer";
 import { loadAppContext } from "~/lib/app-context";
-import type { Env } from "~/lib/types";
 
 export const loader = async ({ request, context }: Route.LoaderArgs) => {
-  const env = (context as { cloudflare: { env: Env } }).cloudflare.env;
-  return { appContext: await loadAppContext(request, env) };
+  return {
+    appContext: await loadAppContext(request, context.cloudflare.env),
+  };
 };
 
 export function Layout({ children }: { children: React.ReactNode }) {

@@ -1,4 +1,4 @@
-import type { Env, User, Category, PublicUser } from "~/lib/types";
+import type { Env, Category, PublicUser } from "~/lib/types";
 import { getSession, getSessionCookie, toPublicUser } from "~/lib/auth";
 import { getUserById } from "~/lib/db/queries";
 
@@ -8,11 +8,6 @@ export interface AppContextData {
   cartCount: number;
 }
 
-/**
- * Application data loader. The Worker bindings are supplied by the route
- * loader from `context.cloudflare.env`, which is created by the Cloudflare
- * Vite plugin's `getLoadContext` helper.
- */
 export async function loadAppContext(request: Request, env: Env): Promise<AppContextData> {
   let user: PublicUser | null = null;
   const sessionId = getSessionCookie(request);

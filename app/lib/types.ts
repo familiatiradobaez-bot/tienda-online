@@ -169,7 +169,6 @@ export interface Env {
   DB: D1Database;
   SESSIONS: KVNamespace;
   CACHE: KVNamespace;
-  PRODUCT_IMAGES: R2Bucket;
   GOOGLE_CLIENT_ID: string;
   GOOGLE_CLIENT_SECRET: string;
   JWT_SECRET: string;
