@@ -11,20 +11,15 @@
   --color-brand-700: #be123c;
   --color-brand-800: #9f1239;
   --color-brand-900: #881337;
-
   --color-surface: #ffffff;
   --color-background: #f8fafc;
   --color-foreground: #0f172a;
   --color-muted: #64748b;
   --color-border: #e2e8f0;
-
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
+html { scroll-behavior: smooth; }
 body {
   background-color: var(--color-background);
   color: var(--color-foreground);
@@ -32,29 +27,32 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-@layer components {
-  .btn {
-    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
-  }
-  .btn-primary {
-    @apply btn bg-brand-600 text-white hover:bg-brand-700;
-  }
-  .btn-secondary {
-    @apply btn bg-surface border border-border text-foreground hover:bg-muted/10;
-  }
-  .btn-ghost {
-    @apply btn text-muted hover:text-foreground hover:bg-muted/10;
-  }
-  .input {
-    @apply w-full rounded-lg border border-border bg-surface px-3 py-2 text-sm outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20;
-  }
-  .card {
-    @apply rounded-xl border border-border bg-surface shadow-sm;
-  }
-  .badge {
-    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
-  }
-  .container-app {
-    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
-  }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: 0.5rem; border-radius: 0.5rem; padding: 0.5rem 1rem;
+  font-size: 0.875rem; font-weight: 500; transition: background-color 0.15s;
+  cursor: pointer; border: none; text-decoration: none;
 }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btn-primary { background-color: var(--color-brand-600); color: white; }
+.btn-primary:hover { background-color: var(--color-brand-700); }
+
+.btn-secondary { background-color: var(--color-surface); border: 1px solid var(--color-border); color: var(--color-foreground); }
+.btn-secondary:hover { background-color: rgba(100,116,139,0.1); }
+
+.btn-ghost { background: transparent; color: var(--color-muted); }
+.btn-ghost:hover { color: var(--color-foreground); background-color: rgba(100,116,139,0.1); }
+
+.input {
+  width: 100%; border-radius: 0.5rem; border: 1px solid var(--color-border);
+  background-color: var(--color-surface); padding: 0.5rem 0.75rem;
+  font-size: 0.875rem; outline: none;
+}
+.input:focus { border-color: var(--color-brand-500); box-shadow: 0 0 0 2px rgba(244,63,94,0.2); }
+
+.card { border-radius: 0.75rem; border: 1px solid var(--color-border); background-color: var(--color-surface); box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+
+.badge { display: inline-flex; align-items: center; border-radius: 9999px; padding: 0.125rem 0.625rem; font-size: 0.75rem; font-weight: 500; }
+
+.container-app { margin-left: auto; margin-right: auto; max-width: 80rem; padding-left: 1rem; padding-right: 1rem; }
