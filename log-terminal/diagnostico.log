@@ -1,0 +1,275 @@
+========== DIAGNÓSTICO ==========
+Wed Sep 23 13:51:44 UTC 2026
+== Git ==
+main
+36387c7 Add terminal validation log
+ M package-lock.json
+ M package.json
+ M tsconfig.json
+
+== Versiones ==
+v24.21.0
+11.19.0
+4.86.0
+
+== Build ==
+
+> build
+> react-router build
+
+Using Vite Environment API
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 175 modules transformed.
+Generated an empty chunk: "cart-add".
+Generated an empty chunk: "cart-remove".
+Generated an empty chunk: "cart-update".
+Generated an empty chunk: "google-callback".
+Generated an empty chunk: "google".
+Generated an empty chunk: "logout".
+rendering chunks...
+computing gzip size...
+build/client/.assetsignore                         0.02 kB
+build/client/.vite/manifest.json                  12.36 kB │ gzip:  1.31 kB
+build/client/assets/root-CjfHXHjU.css             24.29 kB │ gzip:  5.37 kB
+build/client/assets/cart-add-l0sNRNKZ.js           0.00 kB │ gzip:  0.02 kB
+build/client/assets/cart-remove-l0sNRNKZ.js        0.00 kB │ gzip:  0.02 kB
+build/client/assets/cart-update-l0sNRNKZ.js        0.00 kB │ gzip:  0.02 kB
+build/client/assets/google-callback-l0sNRNKZ.js    0.00 kB │ gzip:  0.02 kB
+build/client/assets/google-l0sNRNKZ.js             0.00 kB │ gzip:  0.02 kB
+build/client/assets/logout-l0sNRNKZ.js             0.00 kB │ gzip:  0.02 kB
+build/client/assets/utils-D_q00pzH.js              0.64 kB │ gzip:  0.34 kB
+build/client/assets/GoogleButton-DzFiaPDJ.js       0.91 kB │ gzip:  0.57 kB
+build/client/assets/search-C43-cGaV.js             0.97 kB │ gzip:  0.55 kB
+build/client/assets/catalog-BVYhUAx2.js            1.16 kB │ gzip:  0.62 kB
+build/client/assets/ProductCard-JJnzpvWN.js        1.19 kB │ gzip:  0.61 kB
+build/client/assets/category-BzzdIroC.js           1.28 kB │ gzip:  0.66 kB
+build/client/assets/audit-log-AoMD-rRw.js          1.32 kB │ gzip:  0.58 kB
+build/client/assets/dashboard-FUgyQ_Y9.js          1.34 kB │ gzip:  0.64 kB
+build/client/assets/login-C_JhLQhK.js              1.64 kB │ gzip:  0.74 kB
+build/client/assets/orders-BHUnFGO-.js             1.71 kB │ gzip:  0.74 kB
+build/client/assets/roles-BZTSrFaP.js              1.86 kB │ gzip:  0.74 kB
+build/client/assets/reviews-DPWDLqe7.js            1.87 kB │ gzip:  0.78 kB
+build/client/assets/products-CJQ_oIS5.js           2.05 kB │ gzip:  0.85 kB
+build/client/assets/profile-CazGOhba.js            2.05 kB │ gzip:  0.70 kB
+build/client/assets/home-D9SZx0z4.js               2.13 kB │ gzip:  0.91 kB
+build/client/assets/register-DMY06Xid.js           2.15 kB │ gzip:  0.79 kB
+build/client/assets/orders-D3U1HAlL.js             2.19 kB │ gzip:  0.87 kB
+build/client/assets/addresses-CSlrJMmK.js          2.20 kB │ gzip:  0.74 kB
+build/client/assets/product-new-CwEOj2ka.js        2.31 kB │ gzip:  0.78 kB
+build/client/assets/dashboard-DfH7YCTq.js          2.54 kB │ gzip:  0.86 kB
+build/client/assets/product-edit-Czztcn2a.js       2.70 kB │ gzip:  0.87 kB
+build/client/assets/categories-C60nt3-T.js         2.73 kB │ gzip:  0.94 kB
+build/client/assets/users-CIMMk5Yh.js              2.78 kB │ gzip:  0.98 kB
+build/client/assets/AdminLayout-BGYImesE.js        2.98 kB │ gzip:  1.13 kB
+build/client/assets/checkout-Btc2OB5u.js           3.08 kB │ gzip:  1.08 kB
+build/client/assets/view-75JnpQqr.js               3.40 kB │ gzip:  1.15 kB
+build/client/assets/detail-Bntv1k4d.js             4.49 kB │ gzip:  1.58 kB
+build/client/assets/root-BquDoQxX.js               7.10 kB │ gzip:  2.33 kB
+build/client/assets/lib-DILqsbpx.js               10.83 kB │ gzip:  4.31 kB
+build/client/assets/errorBoundaries-DwwE4wzF.js   32.44 kB │ gzip: 11.59 kB
+build/client/assets/jsx-runtime-BcQX-o6D.js       87.22 kB │ gzip: 29.50 kB
+build/client/assets/entry.client-DoV0uSV3.js     217.11 kB │ gzip: 67.70 kB
+✓ built in 3.82s
+vite v7.3.6 building ssr environment for production...
+transforming...
+✓ 151 modules transformed.
+rendering chunks...
+build/server/.vite/manifest.json                 0.72 kB
+build/server/wrangler.json                       1.54 kB
+build/server/assets/server-build-CjfHXHjU.css   24.29 kB
+build/server/index.js                            0.08 kB
+build/server/assets/worker-entry-BBe71N-1.js   145.91 kB
+build/server/assets/server-build-BC896OPA.js   821.07 kB
+✓ built in 2.12s
+Código build: 0
+
+== TypeScript ==
+app/lib/app-context.ts(24,60): error TS7006: Parameter 'c' implicitly has an 'any' type.
+app/lib/auth.ts(36,41): error TS2304: Cannot find name 'KVNamespace'.
+app/lib/auth.ts(42,38): error TS2304: Cannot find name 'KVNamespace'.
+app/lib/auth.ts(48,42): error TS2304: Cannot find name 'KVNamespace'.
+app/lib/db/queries.ts(3,39): error TS2552: Cannot find name 'D1Database'. Did you mean 'IDBDatabase'?
+app/lib/db/queries.ts(4,41): error TS2552: Cannot find name 'D1Database'. Did you mean 'IDBDatabase'?
+app/lib/db/queries.ts(5,39): error TS2552: Cannot find name 'D1Database'. Did you mean 'IDBDatabase'?
+app/lib/db/queries.ts(6,39): error TS2552: Cannot find name 'D1Database'. Did you mean 'IDBDatabase'?
+app/lib/db/queries.ts(7,42): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(8,45): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(9,38): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(13,42): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(14,44): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(15,39): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(21,44): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(22,45): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(23,44): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(24,42): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(25,42): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(26,44): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(33,47): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(34,49): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(40,42): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(46,42): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(52,41): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(56,41): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(60,41): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(61,47): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(65,40): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(66,45): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(70,41): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(71,40): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(72,40): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(73,37): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(78,46): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(79,42): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(80,37): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(81,39): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(86,40): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(87,43): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(88,40): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(89,40): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(95,45): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(96,46): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(97,41): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(101,41): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(102,42): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(103,40): error TS2304: Cannot find name 'D1Database'.
+app/lib/db/queries.ts(109,45): error TS2304: Cannot find name 'D1Database'.
+app/lib/types.ts(169,7): error TS2552: Cannot find name 'D1Database'. Did you mean 'IDBDatabase'?
+app/lib/types.ts(170,13): error TS2304: Cannot find name 'KVNamespace'.
+app/lib/types.ts(171,10): error TS2304: Cannot find name 'KVNamespace'.
+app/root.tsx(2,28): error TS2307: Cannot find module './+types/root' or its corresponding type declarations.
+app/routes/account/addresses.tsx(2,28): error TS2307: Cannot find module './+types/addresses' or its corresponding type declarations.
+app/routes/account/addresses.tsx(11,394): error TS7006: Parameter 'a' implicitly has an 'any' type.
+app/routes/account/dashboard.tsx(2,28): error TS2307: Cannot find module './+types/dashboard' or its corresponding type declarations.
+app/routes/account/dashboard.tsx(11,1415): error TS7006: Parameter 'o' implicitly has an 'any' type.
+app/routes/account/orders.tsx(2,28): error TS2307: Cannot find module './+types/orders' or its corresponding type declarations.
+app/routes/account/orders.tsx(11,482): error TS7006: Parameter 'o' implicitly has an 'any' type.
+app/routes/account/orders.tsx(11,809): error TS7006: Parameter 'i' implicitly has an 'any' type.
+app/routes/account/profile.tsx(2,28): error TS2307: Cannot find module './+types/profile' or its corresponding type declarations.
+app/routes/admin/audit-log.tsx(2,28): error TS2307: Cannot find module './+types/audit-log' or its corresponding type declarations.
+app/routes/admin/audit-log.tsx(11,122): error TS2322: Type '{ children: Element; user: any; activeSection: string; }' is not assignable to type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+  Property 'children' does not exist on type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+app/routes/admin/audit-log.tsx(11,542): error TS7006: Parameter 'l' implicitly has an 'any' type.
+app/routes/admin/categories.tsx(2,28): error TS2307: Cannot find module './+types/categories' or its corresponding type declarations.
+app/routes/admin/categories.tsx(12,165): error TS7006: Parameter 'c' implicitly has an 'any' type.
+app/routes/admin/categories.tsx(12,202): error TS2322: Type '{ children: Element; user: any; activeSection: string; }' is not assignable to type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+  Property 'children' does not exist on type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+app/routes/admin/categories.tsx(12,541): error TS7006: Parameter 'cat' implicitly has an 'any' type.
+app/routes/admin/categories.tsx(12,583): error TS7006: Parameter 'c' implicitly has an 'any' type.
+app/routes/admin/categories.tsx(12,1073): error TS7006: Parameter 's' implicitly has an 'any' type.
+app/routes/admin/categories.tsx(12,2072): error TS7006: Parameter 'c' implicitly has an 'any' type.
+app/routes/admin/dashboard.tsx(2,28): error TS2307: Cannot find module './+types/dashboard' or its corresponding type declarations.
+app/routes/admin/dashboard.tsx(12,158): error TS2322: Type '{ children: Element; user: any; activeSection: string; }' is not assignable to type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+  Property 'children' does not exist on type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+app/routes/admin/orders.tsx(2,28): error TS2307: Cannot find module './+types/orders' or its corresponding type declarations.
+app/routes/admin/orders.tsx(12,134): error TS2322: Type '{ children: Element; user: any; activeSection: string; }' is not assignable to type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+  Property 'children' does not exist on type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+app/routes/admin/orders.tsx(12,743): error TS7006: Parameter 'o' implicitly has an 'any' type.
+app/routes/admin/product-edit.tsx(3,28): error TS2307: Cannot find module './+types/product-edit' or its corresponding type declarations.
+app/routes/admin/product-edit.tsx(11,545): error TS2322: Type 'number | null' is not assignable to type 'number | undefined'.
+  Type 'null' is not assignable to type 'number | undefined'.
+app/routes/admin/product-edit.tsx(11,700): error TS2322: Type 'number | null' is not assignable to type 'number | undefined'.
+  Type 'null' is not assignable to type 'number | undefined'.
+app/routes/admin/product-edit.tsx(12,140): error TS2322: Type '{ children: Element; user: any; activeSection: string; }' is not assignable to type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+  Property 'children' does not exist on type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+app/routes/admin/product-edit.tsx(12,1628): error TS7006: Parameter 'c' implicitly has an 'any' type.
+app/routes/admin/product-new.tsx(3,28): error TS2307: Cannot find module './+types/product-new' or its corresponding type declarations.
+app/routes/admin/product-new.tsx(13,130): error TS2322: Type '{ children: Element; user: any; activeSection: string; }' is not assignable to type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+  Property 'children' does not exist on type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+app/routes/admin/product-new.tsx(13,1423): error TS7006: Parameter 'c' implicitly has an 'any' type.
+app/routes/admin/products.tsx(3,28): error TS2307: Cannot find module './+types/products' or its corresponding type declarations.
+app/routes/admin/products.tsx(13,160): error TS2322: Type '{ children: Element; user: any; activeSection: string; }' is not assignable to type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+  Property 'children' does not exist on type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+app/routes/admin/products.tsx(13,765): error TS7006: Parameter 'p' implicitly has an 'any' type.
+app/routes/admin/products.tsx(13,998): error TS2367: This comparison appears to be unintentional because the types 'string' and 'number' have no overlap.
+app/routes/admin/reviews.tsx(2,28): error TS2307: Cannot find module './+types/reviews' or its corresponding type declarations.
+app/routes/admin/reviews.tsx(12,136): error TS2322: Type '{ children: Element; user: any; activeSection: string; }' is not assignable to type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+  Property 'children' does not exist on type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+app/routes/admin/reviews.tsx(12,584): error TS7006: Parameter 'r' implicitly has an 'any' type.
+app/routes/admin/roles.tsx(2,28): error TS2307: Cannot find module './+types/roles' or its corresponding type declarations.
+app/routes/admin/roles.tsx(10,120): error TS2322: Type '{ children: Element; user: any; activeSection: string; }' is not assignable to type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+  Property 'children' does not exist on type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+app/routes/admin/roles.tsx(10,348): error TS7006: Parameter 'r' implicitly has an 'any' type.
+app/routes/admin/roles.tsx(10,920): error TS7006: Parameter 'r' implicitly has an 'any' type.
+app/routes/admin/roles.tsx(10,1212): error TS7006: Parameter 'r' implicitly has an 'any' type.
+app/routes/admin/users.tsx(2,28): error TS2307: Cannot find module './+types/users' or its corresponding type declarations.
+app/routes/admin/users.tsx(12,186): error TS2322: Type '{ children: Element; user: any; activeSection: string; }' is not assignable to type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+  Property 'children' does not exist on type 'IntrinsicAttributes & { user: PublicUser; activeSection: string; }'.
+app/routes/admin/users.tsx(12,937): error TS7006: Parameter 'u' implicitly has an 'any' type.
+app/routes/admin/users.tsx(12,1609): error TS7006: Parameter 'r' implicitly has an 'any' type.
+app/routes/admin/users.tsx(12,1798): error TS7006: Parameter 'r' implicitly has an 'any' type.
+app/routes/api/cart-add.tsx(2,28): error TS2307: Cannot find module './+types/cart-add' or its corresponding type declarations.
+app/routes/api/cart-remove.tsx(2,28): error TS2307: Cannot find module './+types/cart-remove' or its corresponding type declarations.
+app/routes/api/cart-update.tsx(2,28): error TS2307: Cannot find module './+types/cart-update' or its corresponding type declarations.
+app/routes/auth/google-callback.tsx(2,28): error TS2307: Cannot find module './+types/google-callback' or its corresponding type declarations.
+app/routes/auth/google.tsx(2,28): error TS2307: Cannot find module './+types/google' or its corresponding type declarations.
+app/routes/auth/login.tsx(3,28): error TS2307: Cannot find module './+types/login' or its corresponding type declarations.
+app/routes/auth/logout.tsx(2,28): error TS2307: Cannot find module './+types/logout' or its corresponding type declarations.
+app/routes/auth/register.tsx(3,28): error TS2307: Cannot find module './+types/register' or its corresponding type declarations.
+app/routes/cart/checkout.tsx(3,28): error TS2307: Cannot find module './+types/checkout' or its corresponding type declarations.
+app/routes/cart/checkout.tsx(13,479): error TS7006: Parameter 'a' implicitly has an 'any' type.
+app/routes/cart/view.tsx(2,28): error TS2307: Cannot find module './+types/view' or its corresponding type declarations.
+app/routes/cart/view.tsx(13,220): error TS7006: Parameter 'item' implicitly has an 'any' type.
+app/routes/home.tsx(2,28): error TS2307: Cannot find module './+types/home' or its corresponding type declarations.
+app/routes/products/catalog.tsx(2,28): error TS2307: Cannot find module './+types/catalog' or its corresponding type declarations.
+app/routes/products/catalog.tsx(11,381): error TS7006: Parameter 'p' implicitly has an 'any' type.
+app/routes/products/category.tsx(2,28): error TS2307: Cannot find module './+types/category' or its corresponding type declarations.
+app/routes/products/category.tsx(39,31): error TS7006: Parameter 's' implicitly has an 'any' type.
+app/routes/products/category.tsx(50,32): error TS7006: Parameter 'p' implicitly has an 'any' type.
+app/routes/products/detail.tsx(3,28): error TS2307: Cannot find module './+types/detail' or its corresponding type declarations.
+app/routes/products/detail.tsx(31,57): error TS7006: Parameter 'v' implicitly has an 'any' type.
+app/routes/products/detail.tsx(67,22): error TS2322: Type 'unknown' is not assignable to type 'Key | null | undefined'.
+app/routes/products/detail.tsx(68,69): error TS2322: Type 'unknown' is not assignable to type 'ReactNode'.
+app/routes/products/detail.tsx(70,39): error TS7006: Parameter 'v' implicitly has an 'any' type.
+app/routes/products/detail.tsx(70,65): error TS7006: Parameter 'v' implicitly has an 'any' type.
+app/routes/products/detail.tsx(108,27): error TS7006: Parameter 'r' implicitly has an 'any' type.
+app/routes/products/detail.tsx(130,35): error TS7006: Parameter 'p' implicitly has an 'any' type.
+app/routes/products/search.tsx(2,28): error TS2307: Cannot find module './+types/search' or its corresponding type declarations.
+app/routes/products/search.tsx(35,32): error TS7006: Parameter 'p' implicitly has an 'any' type.
+workers/app.ts(6,12): error TS2304: Cannot find name 'Env'.
+workers/app.ts(7,12): error TS2304: Cannot find name 'ExecutionContext'.
+workers/app.ts(13,16): error TS2307: Cannot find module 'virtual:react-router/server-build' or its corresponding type declarations.
+workers/app.ts(18,9): error TS7006: Parameter 'request' implicitly has an 'any' type.
+workers/app.ts(18,18): error TS7006: Parameter 'env' implicitly has an 'any' type.
+workers/app.ts(18,23): error TS7006: Parameter 'ctx' implicitly has an 'any' type.
+workers/app.ts(20,7): error TS2353: Object literal may only specify known properties, and 'cloudflare' does not exist in type 'RouterContextProvider'.
+workers/app.ts(23,13): error TS2304: Cannot find name 'ExportedHandler'.
+workers/app.ts(23,29): error TS2304: Cannot find name 'Env'.
+Código TypeScript: 2
+
+== Wrangler dry-run ==
+
+ ⛅️ wrangler 4.86.0 (update available 4.136.3)
+──────────────────────────────────────────────
+Using redirected Wrangler configuration.
+ - Configuration being used: "build/server/wrangler.json"
+ - Original user's configuration: "wrangler.jsonc"
+ - Deploy configuration file: ".wrangler/deploy/config.json"
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProcessing build/server/wrangler.json configuration:[0m
+
+    - Unexpected fields found in top-level field: "exports","connect","agent_memory"
+
+
+There is a newer version of Wrangler available (current: 4.86.0, latest: 4.136.3). Try upgrading, as it might support this configuration option.
+Attaching additional modules:
+┌─────────────────────────────────┬──────┬────────────┐
+│ Name                            │ Type │ Size       │
+├─────────────────────────────────┼──────┼────────────┤
+│ assets/server-build-BC896OPA.js │ esm  │ 801.83 KiB │
+├─────────────────────────────────┼──────┼────────────┤
+│ assets/worker-entry-BBe71N-1.js │ esm  │ 142.49 KiB │
+├─────────────────────────────────┼──────┼────────────┤
+│ Total (2 modules)               │      │ 944.32 KiB │
+└─────────────────────────────────┴──────┴────────────┘
+✨ Read 44 files from the assets directory /workspaces/tienda-online/build/client
+Total Upload: 944.40 KiB / gzip: 170.96 KiB
+Your Worker has access to the following bindings:
+Binding                                              Resource          
+env.SESSIONS (d55e906be9bf4fe88641ff58505adfc9)      KV Namespace      
+env.CACHE (d507b543e92a436db2550dd78d1eda61)         KV Namespace      
+env.DB (tienda-db)                                   D1 Database       
+
+--dry-run: exiting now.
+Código Wrangler: 0
+
+========== FIN ==========

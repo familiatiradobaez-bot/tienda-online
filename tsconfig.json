@@ -17,12 +17,16 @@
     "paths": {
       "~/*": ["./app/*"]
     },
+<<<<<<< Updated upstream
     "types": [
       "@cloudflare/vite-plugin/client",
       "@cloudflare/workers-types",
       "node",
       "vite/client"
     ]
+=======
+    "types": ["vite/client"]
+>>>>>>> Stashed changes
   },
   "include": [
     "app/**/*",
