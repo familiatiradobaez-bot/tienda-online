@@ -17,12 +17,15 @@
     "paths": {
       "~/*": ["./app/*"]
     },
-    "types": ["@cloudflare/vite-plugin/client", "vite/client"]
+    "types": [
+      "@cloudflare/vite-plugin/client",
+      "@cloudflare/workers-types",
+      "node",
+      "vite/client"
+    ]
   },
   "include": [
     "app/**/*",
-    "app/**/*.ts",
-    "app/**/*.tsx",
     "workers/**/*",
     ".react-router/types/**/*",
     "vite.config.ts"
