@@ -10,8 +10,9 @@ export default defineConfig({
     reactRouter(),
     cloudflare({
       viteEnvironment: { name: "ssr" },
-      config: {name: "tienda-online",
-        main: "build/server/index.js",
+      config: {
+        name: "tienda-online",
+        main: "workers/app.ts",
         compatibility_date: "2026-09-23",
         compatibility_flags: ["nodejs_compat"],
         observability: { enabled: true },
@@ -24,6 +25,5 @@ export default defineConfig({
         ]
       }
     })
-  ],
-  resolve: { alias: { "~": path.resolve(__dirname, "app") } }
+  ],resolve: { alias: { "~": path.resolve(__dirname, "app") } }
 });
