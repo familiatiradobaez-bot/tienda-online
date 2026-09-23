@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "react-router dev",
-    "build": "mkdir -p build/server && echo 'export default {}' > build/server/index.js && react-router build",
+    "build": "react-router build",
     "deploy": "react-router build && wrangler deploy",
     "db:init": "wrangler d1 execute tienda-db --file=./app/lib/db/schema.sql",
     "db:seed": "wrangler d1 execute tienda-db --file=./app/lib/db/seed.sql"
@@ -16,7 +16,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^8.0.0"
-  },"devDependencies": {
+  },  "devDependencies": {
     "@cloudflare/vite-plugin": "^1.0.0",
     "@react-router/dev": "^8.0.0",
     "@tailwindcss/vite": "^4.0.0",
