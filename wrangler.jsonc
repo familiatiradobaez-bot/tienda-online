@@ -16,8 +16,5 @@
   "kv_namespaces": [
     { "binding": "SESSIONS", "id": "d55e906be9bf4fe88641ff58505adfc9" },
     { "binding": "CACHE", "id": "d507b543e92a436db2550dd78d1eda61" }
-  ],
-  "r2_buckets": [
-    { "binding": "PRODUCT_IMAGES", "bucket_name": "tienda-product-images" }
   ]
 }
