@@ -19,17 +19,10 @@
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.0.0",
-<<<<<<< Updated upstream
-    "@cloudflare/workers-types": "^4.20260923.0",
-    "@react-router/dev": "^8.0.0",
-    "@tailwindcss/vite": "^4.0.0",
-    "@types/node": "^22.0.0",
-=======
     "@cloudflare/workers-types": "^5.20260923.1",
     "@react-router/dev": "^8.0.0",
     "@tailwindcss/vite": "^4.0.0",
     "@types/node": "^26.6.2",
->>>>>>> Stashed changes
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "tailwindcss": "^4.0.0",
